@@ -17,6 +17,10 @@ print (isNumeroamayor)
 isIgual = numeroA == numeroB
 print ("#"*10 , "A es igual que B" , "#"*10)
 print (isIgual)
+#preguntar si son diferentes
+isDiferente = numeroA != numeroB
+print ("#"*10 , "A es diferente de B" , "#"*10)
+print (isDiferente)
 #suma
 sumar = numeroA + numeroB
 print (f"la suma dio {sumar} exitosamente")
@@ -32,6 +36,7 @@ print (f"la division dio {dividir} exitosamente ")
 #potenciacion
 potencia = numeroA ** numeroB
 print (f"la potencia dio {potencia} exitosamente ")
+
 
 
 
