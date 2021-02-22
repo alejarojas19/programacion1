@@ -17,6 +17,6 @@ elif(edad >= 18 and edad <= 25):
 elif(edad >= 26 and edad <= 60):
     respuesta = MENSAJE_ADULTO
 else:
-    rspuesta = MENSAJE_MAYOR
+    respuesta = MENSAJE_MAYOR
 print (respuesta)
 print (MENSAJE_DESPEDIDA)
