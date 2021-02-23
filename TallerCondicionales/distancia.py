@@ -1,10 +1,6 @@
 #---- constantes ----#
 PREGUNTA_MEDIDA = "ingrese una medida en centimetros : "
-PREGUNTA_UNIDAD = """ingrese en que unidades desea transformar : 
-K- Kilometros
-M- Metros
-mm- milimetros
-"""
+PREGUNTA_UNIDAD = "ingrese en que unidades desea transformar : "
 MENSAJE_ERROR = "entrada no valida"
 
 #----entradas----#
