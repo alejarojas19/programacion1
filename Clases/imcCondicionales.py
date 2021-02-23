@@ -11,7 +11,7 @@ MENSAJE_OBESO = "ten cuidado, estas obeso"
 #--- codigo ---#
 print (MENSAJE_BIENVENIDA)
 peso = float(input(PREGUNTA_PESO))
-estatura = float(input(PREGUNTA_ESTATURA))
+estatura = float (input(PREGUNTA_ESTATURA))
 IMC = peso/(estatura**2)
 isBajoPeso = IMC < 18.5
 isNormal = IMC >= 18.5 and IMC < 25
