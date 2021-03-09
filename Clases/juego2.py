@@ -75,3 +75,4 @@ else:
                             numeroOculto,
                             'El número dos era el',
                             numeroOcultoDos)
+      
