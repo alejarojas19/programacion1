@@ -16,7 +16,7 @@ print(edades[:3])
 print(edades[2:])
 print(edades[:])
 print(edades)
-edades.sort()
+edades.sort() #Orden de listas
 print(edades)
 edades.sort(reverse=True)
 print(edades)
