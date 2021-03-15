@@ -9,5 +9,8 @@ numeroB = int (input(PREGUNTA_NUMERO_B))
 while ( numeroB > numeroA):
     numeroB = int (input(PREGUNTA_NUMERO_B))   
 
+if (numeroA > numeroB):
+    print("el segundo numero debe ser mayor")
+
 
 

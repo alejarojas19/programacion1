@@ -3,8 +3,8 @@ print (type(nombres))
 print(nombres)
 nombres = ['Santi','Samuel','Aleja','Elsa']
 print (nombres)
-print (nombres[2])
-nombres.append('Mauricio')
+print (nombres[2]) #se imprime el nombre de la posicion 2
+nombres.append('Mauricio') #agregar nombre a la lista
 print (nombres)
 print (nombres[2])
 edades = [18,19,20,17,32,14,13,12,15,16]
