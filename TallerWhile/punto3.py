@@ -10,8 +10,8 @@ numeroA = int(input(PREGUNTA_NUMERO_A))
 numeroB = int(input(PREGUNTA_NUMERO_B))
 
 while(numeroB < numeroA):
+    print (MENSAJE_ERROR)
     numeroB = int(input(PREGUNTA_NUMERO_B))
-    if (numeroB > numeroA):
-        print (MENSAJE_ERROR)
+
 
 print (MENSAJE_DESPEDIDA)
