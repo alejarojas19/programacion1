@@ -4,7 +4,7 @@ for elemento in listaDolares:
         print("ingresos bajos")
     elif(elemento > 1000 and elemento < 7000): 
         print ("ingresos medios")
-    elif(elemento > 7000 and elemnto < 20000):
+    elif(elemento > 7000 and elemento < 20000):
         print("ingresos altos")
     else:
         print("ingresos elevados")
