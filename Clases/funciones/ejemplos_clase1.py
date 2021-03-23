@@ -46,7 +46,23 @@ def dividir (a = 0, b = 1):
     dividi = a / b
     return dividi
 
+#----------potencia dos números -----------#
+baseIngresada = int (input("ingrese una base entera : "))
+exponenteIngresado = int (input ("ingrese un exponente entero : "))
+
+def potenciar (base = 0, exponente = 1):
+    potencia = base ** exponente
+    return potencia
+
+#----------funciones dependientes de otras -----------#
+def calcular (operacion, numeroA, numeroB):
+    print(operacion(numeroA,numeroB))
+
+
 print(restar(83,87))
 print(multiplicar(83,87))
 print(dividir(83,87))
 print(dividir()) 
+print (potenciar(baseIngresada, exponenteIngresado))
+
+calcular(sumar,63,67)
