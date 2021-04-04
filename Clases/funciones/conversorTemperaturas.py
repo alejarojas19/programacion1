@@ -42,4 +42,3 @@ def mostrarTopes(lista):
     print('La mayor temperatura es', mayor)
     print('La menor temperatura es', menor)
     print('El periodo de muestras es', periodoHoras)
-© 2021 GitHub, Inc.
