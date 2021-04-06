@@ -9,4 +9,5 @@ def saludo (n):
 def saludar (n): 
     print ("\n hola"*n)
 
+saludar (6)
 
