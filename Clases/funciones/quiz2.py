@@ -1,5 +1,6 @@
 import conversorTemperaturas as ct
 import funciones as fn
+
 preguntaNumero = '''Ingrese alguna de estas opciones
     1.Convertir temperaturas
     2.Mostrar clasificación
