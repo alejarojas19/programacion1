@@ -14,6 +14,6 @@ def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
 etiquetarElementosPorcentuales(sizes, pieLabels,'*')
 
 plt.pie(sizes,labels=pieLabels, explode=pieExplode, shadow= True, counterclock = True, startangle= 45)
-plt.title('Ciudades de colombia --> porcentaje: millones de habitantes')
+plt.title('Ciudades de colombia')
 plt.savefig('pieCiudades.png')
 plt.show()
