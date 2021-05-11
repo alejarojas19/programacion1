@@ -1,0 +1,16 @@
+#Un electrocardiograma registra las señales eléctricas del corazón.
+#Es una prueba común e indolora que se utiliza para detectar rápidamente los problemas cardíacos y controlar la salud del corazón.
+
+import pandas as pd 
+import matplotlib.pyplot as plt
+ecgData = pd.read_csv("ecg.csv", encoding="UTF-8", header=0, delimiter= ";").to_dict()
+print (ecgData.keys())
+muestras = list (ecgData["muestra"].values())
+print(muestras)
+voltaje = list (ecgData["valor"].values())
+plt.plot(muestras, voltaje)
+plt.title("Electrocardiograma")
+plt.xlabel("muestra")
+plt.ylabel ("valor")
+plt.savefig("ecg.png")
+plt.show()
