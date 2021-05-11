@@ -16,6 +16,7 @@ for i in range(5):
     poblacion = float(input(pregunta_poblacion)) #sizes
     ListaPoblacion.append(poblacion)
 
+
 maximo = ListaPoblacion.index(max(ListaPoblacion))
 pieExplode = [0,0,0,0,0]
 
