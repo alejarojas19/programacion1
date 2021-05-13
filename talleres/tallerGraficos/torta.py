@@ -17,3 +17,4 @@ plt.pie(sizes,labels=pieLabels, explode=pieExplode, shadow= True, counterclock =
 plt.title('Ciudades de colombia')
 plt.savefig('pieCiudades.png')
 plt.show() 
+
