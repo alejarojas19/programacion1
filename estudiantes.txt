@@ -1,0 +1,3 @@
+Archivo de datos de estudiantes
+nombre:alejandra edad: 19 estatura: 1.72
+nombre:daniel edad: 27 estatura: 1.67
