@@ -35,3 +35,12 @@ def pedirDatosEPN():
     estatura = validateFloat(preguntaEstatura)
     nombre = validateString (preguntaNombre)
     return peso,estatura, nombre
+
+def calcularIMC ():
+    pesoIn, estaturaIn, nombreIn = pedirDatosEPN()
+    imc = pesoIn/ (estaturaIn**2)
+    return imc, nombreIn
+
+imc, nombre = calcularIMC()
+print(imc, nombre)
+print(f'El imc de {nombre} es de {imc} %')
